@@ -1,5 +1,5 @@
 name: "local-chart-version"
-version: "0.0.8"
+version: "0.0.7"
 usage: "local-chart-version [subcommand] LOCAL_CHART_DIRECTORY [flags]"
 description: |-
   Helm plugin for setting/bumping the version number and app version of a local chart
