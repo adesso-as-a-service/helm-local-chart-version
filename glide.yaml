@@ -1,4 +1,4 @@
-package: github.com/adessoservice/helm-local-chart-version
+package: github.com/adesso-as-a-service/helm-local-chart-version
 import:
 - package: github.com/Masterminds/semver
   version: ~1.3.1
