@@ -5,8 +5,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/mbenabda/helm-local-chart-version/pkg/chartfile"
-	"github.com/mbenabda/helm-local-chart-version/pkg/version"
+	"github.com/adessoservice/helm-local-chart-version/pkg/chartfile"
+	"github.com/adessoservice/helm-local-chart-version/pkg/version"
 	"github.com/spf13/cobra"
 	"github.com/spf13/cobra/doc"
 )
@@ -175,7 +175,7 @@ func main() {
 
 	rootCmd := &cobra.Command{
 		Use:  "local-chart-version",
-		Long: "Modify the version number of a local helm chart",
+		Long: "Modify the version / app number of a local helm chart",
 	}
 
 	out := rootCmd.OutOrStdout()

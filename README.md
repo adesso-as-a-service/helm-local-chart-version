@@ -12,11 +12,11 @@ see [the documentation](docs/local-chart-version.md)
 ### Using Helm plugin manager (> 2.3.x)
 
 ```shell
-helm plugin install https://github.com/mbenabda/helm-local-chart-version
+helm plugin install https://github.com/adessoservice/helm-local-chart-version
 ```
 
 ### Pre Helm 2.3.0 Installation
-Pick a release tarball from the [releases](https://github.com/mbenabda/helm-local-chart-version/releases) page.
+Pick a release tarball from the [releases](https://github.com/adessoservice/helm-local-chart-version/releases) page.
 
 Unpack the tarball in your helm plugins directory (`$(helm home)/plugins`).
 
@@ -30,9 +30,9 @@ curl -L $TARBALL_URL | tar -C $(helm home)/plugins -xzv
 Clone the repository into your `$GOPATH` and then build it.
 
 ```
-$ mkdir -p $GOPATH/src/github.com/mbenabda/
-$ cd $GOPATH/src/github.com/mbenabda/
-$ git clone https://github.com/mbenabda/helm-local-chart-version.git
+$ mkdir -p $GOPATH/src/github.com/adessoservice/
+$ cd $GOPATH/src/github.com/adessoservice/
+$ git clone https://github.com/adessoservice/helm-local-chart-version.git
 $ cd helm-local-chart-version
 $ make install
 ```
