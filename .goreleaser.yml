@@ -15,15 +15,15 @@ builds:
       - amd64
 
 # Archive customization
-archive: 
-  name_template: "{{ .ProjectName }}-{{ .Version }}-{{ .Os }}-{{ .Arch }}"
+archives:
+  - name_template: "{{ .ProjectName }}-{{ .Version }}-{{ .Os }}-{{ .Arch }}"
 
-  files:
-    - plugin.yaml
-    - README.md
-    - ./docs/**
+    files:
+      - plugin.yaml
+      - README.md
+      - ./docs/**
 
-  format: tar.gz
+    format: tar.gz
 
 env_files:
   github_token: ~/.github/helm-local-chart-version.token
