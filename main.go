@@ -5,8 +5,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/mbenabda/helm-local-chart-version/pkg/chartfile"
-	"github.com/mbenabda/helm-local-chart-version/pkg/version"
+	"github.com/adesso-as-a-service/helm-local-chart-version/pkg/chartfile"
+	"github.com/adesso-as-a-service/helm-local-chart-version/pkg/version"
 	"github.com/spf13/cobra"
 	"github.com/spf13/cobra/doc"
 )
